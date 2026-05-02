@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #7b1e3a;
+}
+
+p {
+  font-size: 20px;
+  max-width: 500px;
+  color: #3d1f2b;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #7b1e3a;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
